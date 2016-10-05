@@ -1,0 +1,127 @@
+/*
+ * Start Bootstrap - Full Width Pics (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+*{
+font-family:'Alef Hebrew',Arial, verdana, 'sans serif';
+text-decoration-line: none;
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 5px; 
+}
+img{
+    text-align: center;
+    margin: auto;
+}
+
+#bubbles img{
+    width: 150px;
+    height: 150px;
+}
+h3{
+    color:#1c4f86;
+    line-height: 2;
+    text-decoration:bold;
+}
+h2{
+color:#1c4f86;
+text-shadow: 5px;
+line-height: 2;
+border-bottom: 1px solid black;
+text-decoration: bold;
+text-shadow:1px 1px 3px white;
+}
+
+h1{
+text-decoration: bold;
+text-shadow:1px 1px 5px black;
+color: white;
+font-size: 40px;
+}
+
+.btn-success{
+    background-color: #1c4f86;
+    border-color: #1c4f86;
+}
+
+#bubbles p{
+    font-size: 16px;
+}
+.col-sm-4{
+    padding: 20px 40px;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url(../imgs/landingPage/background.jpg) no-repeat center center fixed;
+    box-shadow: 10px;
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background: url(../imgs/landingPage/background2.jpg) no-repeat center center scroll;
+    height: 140px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+#first{
+    padding: 75px 0px;
+    background: url(../imgs/landingPage/bubbleBackground1.jpg) no-repeat center center scroll;
+}
+
+#contact{
+        padding: 75px 0px;
+    background: url(../imgs/landingPage/bubbleBackground1.jpg) no-repeat center center scroll;
+
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    padding: 30px 0;
+    box-shadow: 2px 2px 15px black;
+
+}
+
+footer a{
+    color: black;
+}
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}

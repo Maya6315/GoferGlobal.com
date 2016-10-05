@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+*{
+  font-family:'Alef Hebrew',Arial, verdana, 'sans serif';
+}
+/*Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #3a709e;
+  box-shadow: 0px 5px 15px;
+}
+/* active navbar*/
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: #1e5584;
+}
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover{
+  background-color:#1c496f;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: white;
+  text-shadow:2px 2px 4px black;
+  font-size: 18px;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+  color:white;
+  text-shadow:2px 2px 4px black;
+}
+ul .dropdown-menu {
+  background-color: #1e5584;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover{
+  background-color: #1c496f;  
+}
+
+.btn-info{
+  padding: 4px;
+}
+
+/*Carousel*/
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
+}
+}
+.carousel-inner{
+  box-shadow: 0px 5px 15px;
+}
+
+/* Windows Of Text */
+.well{
+  margin-top: 25px;
+}
+.well p{
+  font-size: 16px;
+}
+.well h1{
+border-bottom: 1.5px solid #3a709e;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+  box-shadow: 0px 5px 25px;
+}
+  

@@ -1,0 +1,15 @@
+<form method="post" action="process-form.php">
+    <label for="name">שם מלא:</label>
+    <input type="text" name="name" id="name" value="<?php echo $name; ?>"/>
+
+    <label for="phone">טלפון:</label>
+    <input type="text" name="phone" id="phone" value="<?php echo $phone; ?>"/>
+
+    <label for="email">דוא"ל:</label>
+    <input type="text" name="email" id="email" value="<?php echo $email; ?>"/>
+
+    <label for="message">תוכן ההודעה:</label>
+    <textarea name="message" id="message"><?php echo $message; ?></textarea>
+
+    <input type="submit" name="submit" value="שלח" />
+</form>
